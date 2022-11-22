@@ -1,0 +1,11 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.sfdx": true
+  },
+  "salesforcedx-vscode-apex.advanced.enable-completion-statistics": true,
+  "salesforcedx-vscode-apex.enable-semantic-errors": true,
+  "salesforcedx-vscode-apex.java.home": "C:\\Program Files\\Java\\jdk-17.0.3.1\\bin\\java.exe",
+  "salesforcedx-vscode-apex.java.memory": 4096
+}
