@@ -23,7 +23,7 @@ export default class ContactListView extends NavigationMixin(LightningElement) {
     selectedContacts;
     baseData;
 
-    get selectedContactsLen(){
+    get selectedContactsLen() {
         if(this.selectedContacts == undefined) return 0;
         return this.selectedContacts.length;
     }

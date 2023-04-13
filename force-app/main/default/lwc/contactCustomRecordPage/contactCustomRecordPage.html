@@ -1,7 +1,13 @@
 <template>
-    <lightning-card title={contact.Name}>
-        <div class="slds-m-around_medium">
-            <p><b>Custom Field:</b> {customField}</p>
-        </div>
-    </lightning-card>
+    <div class="slds-m-around_medium">
+        <h1 class="slds-text-heading_medium">{contact.Name}</h1>
+        <lightning-card title="Contact Details">
+            <div class="slds-p-horizontal_small">
+                <p><strong>Email:</strong> {contact.Email}</p>
+                <p><strong>Phone:</strong> {contact.Phone}</p>
+                <p><strong>Account Name:</strong> {contact.Account.Name}</p>
+                <p><strong>Mailing Address:</strong> {contact.MailingStreet}, {contact.MailingCity}, {contact.MailingState} {contact.MailingPostalCode} {contact.MailingCountry}</p>
+            </div>
+        </lightning-card>
+    </div>
 </template>
