@@ -1,7 +1,7 @@
 import { LightningElement, wire } from 'lwc';
 import { refreshApex } from '@salesforce/apex';
 import getAccounts from '@salesforce/apex/AccountController.getAccounts';
-
+//Test
 const columns = [
     { label: 'Name', fieldName: 'Name', type: 'text'},
     { label: 'Industry', fieldName: 'Industry', type: 'text'},
